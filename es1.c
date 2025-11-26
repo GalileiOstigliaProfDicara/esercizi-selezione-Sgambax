@@ -13,13 +13,10 @@ if(numero_1 > numero_2) {
 
     printf("il primo numero: %d è maggiore del secondo: %d\n", numero_1, numero_2);
 
-  
 } else { 
   
   printf("Il primo numero: %d è minore del secondo: %d\n", numero_1, numero_2);
 
 }
-
-return 0;
-
+ return 0;
 }
