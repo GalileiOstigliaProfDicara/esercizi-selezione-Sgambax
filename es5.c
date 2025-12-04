@@ -13,9 +13,9 @@ int main(){
     
     scanf("%f", &celsius);
 
-       if (celsius < -273,15) {
+       if (celsius >= -273.15) {
 
-        kelvin = celsius + 273,15;
+        kelvin = celsius + 273.15;
         fahrenheit = (9/5) * celsius + 32;
 
         printf("La tua temperatura in Kelvin è: %f invece in Fahrenheit è: %f", kelvin, fahrenheit);
